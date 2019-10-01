@@ -3,7 +3,7 @@
 ## Introduction
 For the last three weeks of the C# course at The Tech Academy, I worked as a one-man-team developing an ASP .NET MVC Web Application. This web application allows for users to be registered to a database as 'employees' or 'admins'. Once a user is logged in, they are redirected to a clock in/clock out page. As an admin, the user can see details of all the users in the database, upload user images, etc.
 
-Working on a legacy codebase was another great learning opportunity for adding/modifying features according to user stories, which I assisted in coming up with, as well as practicing the code-first approach to modifying a pre-existing database. There were some particularly challenging tickets that were a large time sink, but with enough research I was able to overcome the obstacles and find ways to solve the issue. I worked primarily on [back end stories](#back-end-stories) however, I also worked on sever [front end stories](#front-end-stories) Over the two week sprint I also had the opportunity to share some of my knowledge regarding version control and virtual environments with the team project management and team programming [skills](#other-skills-learned) that I'm confident I will use again and again on future projects.
+Working on a legacy codebase was another great learning opportunity for adding/modifying features according to user stories, which I assisted in coming up with, as well as practicing the code-first approach to https://github.com/mhaldeman8875/ProsperIT.NET_BusinessApp.gitmodifying a pre-existing database. There were some particularly challenging tickets that were a large time sink, but with enough research I was able to overcome the obstacles and find ways to solve the issue. I worked primarily on [back end stories](#back-end-stories) however, I also worked on sever [front end stories](#front-end-stories) Over the two week sprint I also had the opportunity to share some of my knowledge regarding version control and virtual environments with the team project management and team programming [skills](#other-skills-learned) that I'm confident I will use again and again on future projects.
   
 Below are descriptions of the stories I worked on, along with code snippets and navigation links. I also have some full code files in this repo for the larger functionalities I implemented.
 
@@ -58,7 +58,7 @@ I also created a ViewModel for future functionality:
   > ![](snippets/750-UserDetailsPartial/750-ViewModel2.png)
 
 The result:
-  > ![](snippets/750-UserDetailsPartial/750-Resultk.png)
+  > ![](snippets/750-UserDetailsPartial/750-Result.png)
 
 ---
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
@@ -89,7 +89,5 @@ This ticket targets the Login View. My task was to add additional modals that di
 * Improving project flow by communicating about who needs to check out which files for their current story
 * Learning new efficiencies from other developers by observing their workflow and asking questions  
 * Practice with team programming/pair programming when one developer runs into a bug they cannot solve
-    * One of the developers on the team was having trouble with the JavaScript function being called to increment and decrement the likes on a page and myself and two others on the team sat with him and had him talk through what he had done so far. I asked questions about different ways to approach it until we found where it was broken and what needed to be fixed.
-    * When a user requests a friendship there is supposed to be a pending notification displayed. One of the other developers was hitting a wall while working on this story when he discovered the functionality was working four different ways across the application. I sat with him and we talked through the process of each JavaScript function being called. We discovered there were multiple functions by the same name being loaded, so we simplified the code down to just one function. Clicking the button would now work from the nav drop-down but not on a specific page. I realized that the page was populating two different spans with the same ID and these were what was being targeted by the JavaScript function. So we needed to make that user-specific element identifier a class and target the class instead so that a change in either place would affect both.
   
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
